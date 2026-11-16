@@ -2,3 +2,5 @@
 [hidden]{display:none!important}
 
 .measurementfields{display:grid;grid-template-columns:1fr 1fr auto;gap:15px;align-items:end}.measurementfields label{margin:0}.measurementfields button{margin:0}.tablewrap{overflow-x:auto;margin-top:18px}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:10px;border-bottom:1px solid #e2e8e0}td button{font-size:12px;padding:7px 10px;margin-right:8px}td button:last-child{background:#f2e9e7;color:#7c4035}.measurementactions .secondary{width:auto}.measurementfields #canceledit{grid-column:1/-1;width:auto;justify-self:start}@media(max-width:600px){.measurementfields{grid-template-columns:1fr 1fr}.measurementfields button{grid-column:1/-1}th,td{padding:8px 5px}td button{display:block;margin-bottom:5px}}
+
+#loss-enabled{accent-color:var(--teal)}.charthead>.small{flex-shrink:0}#lossstatus{padding:8px;background:#f4f5ef;border-radius:6px}@media(max-width:650px){.charthead{flex-wrap:wrap}.charthead>div{flex-basis:100%}}
