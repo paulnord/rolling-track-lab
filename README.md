@@ -1,8 +1,14 @@
 # Rolling Track Lab
 
+## Open the lab
+
+**[Launch the public Rolling Track Lab](https://rolling-track-lab-pnord.paranord.chatgpt.site)**
+
+Use this link for the classroom app; no download or local server is needed.
+
 Interactive classroom app for rolling a ball down a straight track and predicting its horizontal range after a downward launch.
 
-## Run
+## Run locally (development)
 
 No build step or dependencies. Open `index.html` in a browser, or serve this folder:
 
@@ -10,7 +16,7 @@ No build step or dependencies. Open `index.html` in a browser, or serve this fol
 python3 -m http.server 8000
 ```
 
-Then open http://localhost:8000.
+Then open http://localhost:8000. This address serves your local copy on your own computer; it is not the public classroom link.
 
 ## Use
 
