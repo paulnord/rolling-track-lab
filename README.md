@@ -25,7 +25,9 @@ Then open http://localhost:8000. This address serves your local copy on your own
 - Enter measured release distances and horizontal ranges to overlay points on the theoretical curve. Edit or remove individual points.
 - Measurements persist locally in the same browser. Export CSV to keep or share a copy; exported rows include the model settings at entry.
 - The graph initially extends to 2.5 m. The release slider spans 0–3 m; the numeric field and target solver support longer releases (up to 100 m).
-- Set the target range beside the graph to see a horizontal dashed target line. This is synchronized with the inverse calculator below.
+- The top graph's vertical scale stays fixed at 0–1.50 m, with 0.25 m ticks. Curves and points above the scale are clipped and explicitly reported; measurement values remain in the table and CSV.
+- Set the target range beside the graph to see a horizontal dashed target line. This is synchronized with the inverse calculator below. Targets above 1.50 m are reported but their lines are not drawn.
+- The profile diagram uses a fixed launch point and a 2.5 m track. Changing release distance moves the ball along that track. Beyond 2.5 m, the ball is not drawn on the track and the flight is labeled as a hypothetical longer-track prediction.
 - Optional rolling resistance is off by default. When enabled, set a constant effective opposing deceleration in m/s².
 - CSV exports include entry-time loss settings; older saved points are treated as resistance off with zero loss.
 
