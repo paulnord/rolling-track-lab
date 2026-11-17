@@ -2,7 +2,9 @@
 
 ## Open the lab
 
-**[Launch the public Rolling Track Lab](https://rolling-track-lab-pnord.paranord.chatgpt.site)**
+**[Launch the public Rolling Track Lab on GitHub Pages](https://paulnord.github.io/rolling-track-lab/)**
+
+[Original hosted copy](https://rolling-track-lab-pnord.paranord.chatgpt.site)
 
 Use this link for the classroom app; no download or local server is needed.
 
